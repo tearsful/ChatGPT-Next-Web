@@ -1,6 +1,6 @@
 export const OWNER = "tearsful";
 export const REPO = "ChatGPT-Web";
-export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
+export const REPO_URL = `https://tearsful.top:84`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
 export const UPDATE_URL = `#`;
 export const RELEASE_URL = `${REPO_URL}/releases`;
