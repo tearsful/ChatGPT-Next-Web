@@ -10,6 +10,7 @@ const ar: PartialLocaleType = {
   Auth: {
     Title: "تحتاج إلى رمز الوصول",
     Tips: "يرجى إدخال رمز الوصول أدناه",
+    SubTips: "أو أدخل مفتاح واجهة برمجة تطبيقات OpenAI الخاص بك",
     Input: "رمز الوصول",
     Confirm: "تأكيد",
     Later: "لاحقًا",
@@ -109,6 +110,11 @@ const ar: PartialLocaleType = {
     FontSize: {
       Title: "حجم الخط",
       SubTitle: "ضبط حجم الخط لمحتوى الدردشة",
+    },
+    InjectSystemPrompts: {
+      Title: "حقن تلميحات النظام",
+      SubTitle:
+        "قم بإضافة تلميحة نظام محاكاة ChatGPT إلى بداية قائمة الرسائل المُطلَبة في كل طلب",
     },
     InputTemplate: {
       Title: "نموذج الإدخال",
@@ -227,6 +233,9 @@ ${builtin} مدمجة، ${custom} تم تعريفها من قبل المستخد
   },
   Plugin: {
     Name: "المكوّن الإضافي",
+  },
+  FineTuned: {
+    Sysmessage: "أنت مساعد ي",
   },
   Mask: {
     Name: "الأقنعة",
